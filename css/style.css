@@ -1,0 +1,27 @@
+@import url("components/button.css");
+@import url("components/banner.css");
+@import url("components/card.css");
+@import url("components/form.css");
+
+:root { --ink:#132238; --muted:#5f6c7b; --primary:#5b4bdb; --primary-dark:#4435bd; --accent:#f4b942; --soft:#f5f5ff; --white:#fff; }
+* { box-sizing: border-box; }
+html { scroll-behavior: smooth; }
+body { margin:0; color:var(--ink); background:var(--white); font-family:"Inter",sans-serif; line-height:1.6; }
+a { color:inherit; text-decoration:none; }
+h1,h2,h3,p { margin-top:0; }
+.container { width:min(1120px, calc(100% - 48px)); margin:0 auto; }
+.navbar { position:sticky; top:0; z-index:10; padding:16px 0; background:rgba(255,255,255,.94); border-bottom:1px solid #e8e8f3; backdrop-filter:blur(10px); }
+.navbar-content { display:flex; align-items:center; justify-content:space-between; gap:20px; }
+.brand { font-size:21px; font-weight:800; }
+.section { padding:88px 0; }
+.section-alt { background:var(--soft); }
+.section-heading { max-width:650px; margin-bottom:34px; }
+.section h2 { margin-bottom:12px; font-size:clamp(30px,5vw,46px); line-height:1.12; }
+.eyebrow { display:inline-block; margin-bottom:12px; color:var(--primary); font-size:13px; font-weight:800; letter-spacing:.12em; text-transform:uppercase; }
+.signup-layout { display:flex; align-items:center; justify-content:space-between; gap:60px; }
+.signup-layout > * { flex:1; }
+footer { padding:30px 0; color:#d8deea; background:var(--ink); font-size:14px; }
+
+@media (max-width:960px) { .container { width:700px; } .card-grid { grid-template-columns:repeat(2,1fr); } }
+@media (max-width:720px) { .container { width:500px; } .signup-layout { flex-direction:column; align-items:stretch; gap:28px; } .card-grid { grid-template-columns:1fr; } }
+@media (max-width:540px) { .container { width:min(300px, calc(100% - 28px)); } .navbar .btn-small { display:none; } .section { padding:62px 0; } }
