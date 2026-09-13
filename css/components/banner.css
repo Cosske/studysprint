@@ -1,0 +1,5 @@
+.banner { display:flex; min-height:72vh; align-items:center; padding:110px 0; color:white; background-image:linear-gradient(115deg,rgba(19,34,56,.96),rgba(91,75,219,.72)),radial-gradient(circle at 80% 20%,#f4b942 0,transparent 32%); background-color:#342c8f; background-size:cover; background-position:center; }
+.banner .container { max-width:1120px; }
+.banner h1 { max-width:800px; margin-bottom:22px; font-size:clamp(44px,7vw,78px); line-height:1.02; letter-spacing:-.04em; }
+.banner p { max-width:650px; margin-bottom:32px; color:#edf0ff; font-size:19px; }
+.banner .eyebrow { color:#ffe4a0; }
