@@ -1,0 +1,5 @@
+.card-grid { display:grid; grid-template-columns:repeat(3,1fr); gap:22px; }
+.card { min-height:250px; padding:30px; background:white; border:1px solid #e7e8f2; border-radius:14px; box-shadow:0 16px 45px rgba(19,34,56,.08); }
+.card h3 { margin-bottom:10px; font-size:21px; }
+.card p { color:var(--muted); }
+.icon { display:grid; width:48px; height:48px; margin-bottom:26px; place-items:center; color:var(--primary); background:var(--soft); border-radius:12px; font-weight:800; }
