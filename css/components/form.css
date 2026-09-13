@@ -1,4 +1,2 @@
-.form-card { display:flex; flex-direction:column; gap:12px; padding:30px; background:white; border-radius:14px; box-shadow:0 16px 45px rgba(19,34,56,.1); }
-.form-card label { font-weight:700; }
-.form-card input { width:100%; padding:14px; border:1px solid #ccd3df; border-radius:8px; font:inherit; }
-.form-card input:focus { outline:3px solid rgba(91,75,219,.18); border-color:var(--primary); }
+.form-card { min-height:520px; overflow:hidden; padding:12px; background:white; border-radius:14px; box-shadow:0 16px 45px rgba(19,34,56,.1); }
+.typeform-embed { width:100%; height:496px; }
