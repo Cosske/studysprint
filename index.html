@@ -69,7 +69,27 @@
       </section>
     </main>
 
-    <footer><div class="container">© 2026 StudySprint — Projet pédagogique Le Wagon</div></footer>
+    <footer>
+      <div class="container">
+        © 2026 StudySprint — Projet pédagogique Le Wagon
+        <details class="privacy-note">
+          <summary>Confidentialité et mesure d’audience</summary>
+          <p>Après votre acceptation, Google Analytics mesure les visites et interactions de ce site pour le projet pédagogique de Cosse. Les informations de navigation sont transmises à Google. Les fonctions publicitaires sont désactivées dans la balise.</p>
+          <p>Votre choix est conservé sur cet appareil pendant six mois. Vous pouvez le modifier ou retirer votre accord avec le bouton ci-dessous. Le formulaire intégré est fourni séparément par Typeform.</p>
+          <a href="https://policies.google.com/privacy" target="_blank" rel="noopener noreferrer">Politique de confidentialité de Google</a>
+        </details>
+        <button class="cookie-settings" id="analytics-settings" type="button">Gérer les cookies Analytics</button>
+      </div>
+    </footer>
+    <section class="cookie-banner" id="analytics-choice" aria-labelledby="analytics-choice-title" hidden>
+      <h2 id="analytics-choice-title">Mesure d’audience</h2>
+      <p>Acceptez-vous les cookies Google Analytics pour mesurer les visites et interactions sur StudySprint ? Sans accord, Analytics ne se charge pas. Votre choix peut être modifié en bas de page.</p>
+      <div class="cookie-actions">
+        <button id="analytics-refuse" type="button">Refuser</button>
+        <button id="analytics-accept" type="button">Accepter</button>
+      </div>
+    </section>
+    <script src="analytics-consent.js"></script>
     <script src="https://embed.typeform.com/next/embed.js"></script>
   </body>
 </html>
